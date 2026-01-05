@@ -25,7 +25,7 @@
         };
       in
       {
-        packages.demucs = python3.pkgs.toPythonApplication python3.pkgs.demucs;
+        packages.demucs = python3.pkgs.toPythonApplication python3.pkgs.demucs-unstable;
         packages.demucs-gui = python3.pkgs.callPackage ./pkgs/demucs-gui.nix { };
       }
     );

@@ -11,6 +11,7 @@
   dora-search,
   openunmix,
   fetchPypi,
+  torchcodec,
 }:
 buildPythonPackage rec {
   pname = "demucs";
@@ -31,6 +32,7 @@ buildPythonPackage rec {
     pyyaml
     torch
     torchaudio
+    torchcodec
     tqdm
   ];
 
